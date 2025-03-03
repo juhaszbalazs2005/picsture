@@ -1,0 +1,21 @@
+[02-Mar-2025 09:01:14 Europe/Budapest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/kldtkmkm/public_html/Welcome_Main.php on line 74
+[02-Mar-2025 09:01:14 Europe/Budapest] PHP Warning:  Use of undefined constant pnev - assumed 'pnev' (this will throw an Error in a future version of PHP) in /home/kldtkmkm/public_html/Welcome_Main.php on line 91
+[02-Mar-2025 09:01:14 Europe/Budapest] PHP Notice:  Undefined variable: unick in /home/kldtkmkm/public_html/Welcome_Main.php on line 203
+[02-Mar-2025 09:01:15 Europe/Budapest] PHP Notice:  Undefined variable: row in /home/kldtkmkm/public_html/Welcome_Main.php on line 68
+[02-Mar-2025 09:01:15 Europe/Budapest] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/kldtkmkm/public_html/Welcome_Main.php on line 73
+[02-Mar-2025 09:01:15 Europe/Budapest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/kldtkmkm/public_html/Welcome_Main.php on line 74
+[02-Mar-2025 09:01:15 Europe/Budapest] PHP Warning:  Use of undefined constant pnev - assumed 'pnev' (this will throw an Error in a future version of PHP) in /home/kldtkmkm/public_html/Welcome_Main.php on line 91
+[02-Mar-2025 09:01:15 Europe/Budapest] PHP Notice:  Undefined variable: unick in /home/kldtkmkm/public_html/Welcome_Main.php on line 203
+[02-Mar-2025 18:35:46 Europe/Budapest] PHP Notice:  Undefined index: animatedbg in /home/kldtkmkm/public_html/Main_content.php on line 30
+[02-Mar-2025 20:11:47 Europe/Budapest] PHP Notice:  Undefined index: animatedbg in /home/kldtkmkm/public_html/Main_content.php on line 30
+[03-Mar-2025 01:03:50 Europe/Budapest] PHP Notice:  Undefined variable: row in /home/kldtkmkm/public_html/Welcome_Main.php on line 68
+[03-Mar-2025 01:03:50 Europe/Budapest] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/kldtkmkm/public_html/Welcome_Main.php on line 73
+[03-Mar-2025 01:03:50 Europe/Budapest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/kldtkmkm/public_html/Welcome_Main.php on line 74
+[03-Mar-2025 01:03:50 Europe/Budapest] PHP Warning:  Use of undefined constant pnev - assumed 'pnev' (this will throw an Error in a future version of PHP) in /home/kldtkmkm/public_html/Welcome_Main.php on line 91
+[03-Mar-2025 01:03:50 Europe/Budapest] PHP Notice:  Undefined variable: unick in /home/kldtkmkm/public_html/Welcome_Main.php on line 203
+[03-Mar-2025 01:09:09 Europe/Budapest] PHP Notice:  Undefined variable: row in /home/kldtkmkm/public_html/Welcome_Main.php on line 68
+[03-Mar-2025 01:09:09 Europe/Budapest] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/kldtkmkm/public_html/Welcome_Main.php on line 73
+[03-Mar-2025 01:09:09 Europe/Budapest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/kldtkmkm/public_html/Welcome_Main.php on line 74
+[03-Mar-2025 01:09:09 Europe/Budapest] PHP Warning:  Use of undefined constant pnev - assumed 'pnev' (this will throw an Error in a future version of PHP) in /home/kldtkmkm/public_html/Welcome_Main.php on line 91
+[03-Mar-2025 01:09:09 Europe/Budapest] PHP Notice:  Undefined variable: unick in /home/kldtkmkm/public_html/Welcome_Main.php on line 203
+[03-Mar-2025 11:36:30 Europe/Budapest] PHP Notice:  Undefined index: animatedbg in /home/kldtkmkm/public_html/Main_content.php on line 30
