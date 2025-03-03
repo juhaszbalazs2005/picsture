@@ -1,3 +1,11 @@
+<?php 
+
+if(!$_SESSION["admin"]){
+    header('Location: ../?p=main');
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="hu">
 
