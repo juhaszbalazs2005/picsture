@@ -169,7 +169,7 @@ if($_COOKIE["darkmode"] == "false"){
         </div><br>
         <div class="card-footer card-footer two">
           <div class="media-body card-link text-primary read-more"><button style="border: none;" id="Kartya_Settings_Togglebtn" onclick="showProfilSettings()">Go to settings</button></div>
-          <div class="media-body card-link text-primary read-more"><a href="http://picsture.hu/?p=admin"><button style="border: none;">Admin panel</button></a></div>
+          <div class="media-body card-link text-primary read-more"><a href="http://picsture.hu/?p=admin"><button style="border: none;" id="Kartya_Settings_Togglebtn">Admin panel</button></a></div>
         </div>
       </div>
     </div>
