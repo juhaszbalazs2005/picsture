@@ -11,10 +11,6 @@ body,html {
     height: 50px;
     text-align: center;
     font-size: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translateY(-50%) translateX(-50%);
     
     > div {
       height: 100%;
@@ -72,26 +68,27 @@ body,html {
     }
   }
 
-.Felso_szoveg{
-    display : flex ;
-    position: absolute;
+#tartalom{
+    display:flex;
     flex-direction : column ;
     justify-content : center ;
     align-items : center ;
+    height: 100vh;
+}
+
+.Felso_szoveg{
+    width: 100%;
+    flex-direction : column ;
     text-align: center;
-    bottom: 60%;
     font-family: Hack, monospace;
     color: aliceblue;
 }
 .Also_szoveg{
-    display : flex ;
-    position: absolute;
     flex-direction : column ;
     justify-content : center ;
     align-items : center ;
     width: 100%;
     text-align: center;
-    bottom: 55%;
     font-family: Hack, monospace;
     color: aliceblue;
 }
@@ -100,8 +97,6 @@ body,html {
     width : 100% ;
     height : 300px ;
     display : flex ;
-    position: absolute;
-    bottom: 78px;
     flex-direction : column ;
     justify-content : center ;
     align-items : center ;

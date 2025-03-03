@@ -8,6 +8,7 @@
 </head>
 <body>
 
+<div id="tartalom">
 <!-- //Felsőszöveg -->
     <h1 class="Felso_szoveg">The site is not available!</h1>
     <p class="Also_szoveg">Please return to the previous site!</p>
@@ -33,6 +34,6 @@
           <div class="button__drow1"></div>
           <div class="button__drow2"></div>
       </div>
-
+</div>
 </body>
 </html>
