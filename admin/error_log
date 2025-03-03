@@ -1,0 +1,20 @@
+[27-Feb-2025 10:14:11 Europe/Budapest] PHP Warning:  include(rendszerek/mysqlconn.php): failed to open stream: No such file or directory in /home/kldtkmkm/public_html/admin/banimg.php on line 13
+[27-Feb-2025 10:14:11 Europe/Budapest] PHP Warning:  include(rendszerek/mysqlconn.php): failed to open stream: No such file or directory in /home/kldtkmkm/public_html/admin/banimg.php on line 13
+[27-Feb-2025 10:14:11 Europe/Budapest] PHP Warning:  include(): Failed opening 'rendszerek/mysqlconn.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/kldtkmkm/public_html/admin/banimg.php on line 13
+[27-Feb-2025 10:14:22 Europe/Budapest] PHP Warning:  include(.rendszerek/mysqlconn.php): failed to open stream: No such file or directory in /home/kldtkmkm/public_html/admin/banimg.php on line 13
+[27-Feb-2025 10:14:22 Europe/Budapest] PHP Warning:  include(.rendszerek/mysqlconn.php): failed to open stream: No such file or directory in /home/kldtkmkm/public_html/admin/banimg.php on line 13
+[27-Feb-2025 10:14:22 Europe/Budapest] PHP Warning:  include(): Failed opening '.rendszerek/mysqlconn.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/kldtkmkm/public_html/admin/banimg.php on line 13
+[27-Feb-2025 10:14:47 Europe/Budapest] PHP Notice:  Array to string conversion in /home/kldtkmkm/public_html/admin/banimg.php on line 28
+[27-Feb-2025 10:16:31 Europe/Budapest] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/kldtkmkm/public_html/admin/banimg.php on line 26
+[27-Feb-2025 10:16:31 Europe/Budapest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/kldtkmkm/public_html/admin/banimg.php on line 27
+[27-Feb-2025 11:24:38 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kldtkmkm/public_html/admin/checkimgs.php:55) in /home/kldtkmkm/public_html/admin/checkimgs.php on line 58
+[27-Feb-2025 11:42:57 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kldtkmkm/public_html/admin/checkimgs.php:55) in /home/kldtkmkm/public_html/admin/checkimgs.php on line 58
+[27-Feb-2025 11:43:53 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kldtkmkm/public_html/admin/checkimgs.php:55) in /home/kldtkmkm/public_html/admin/checkimgs.php on line 59
+[27-Feb-2025 12:17:28 Europe/Budapest] PHP Fatal error:  Uncaught Error: Call to undefined function location() in /home/kldtkmkm/public_html/admin/checkimgs.php:80
+Stack trace:
+#0 {main}
+  thrown in /home/kldtkmkm/public_html/admin/checkimgs.php on line 80
+[27-Feb-2025 12:25:25 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kldtkmkm/public_html/admin/checkimgs.php:76) in /home/kldtkmkm/public_html/admin/checkimgs.php on line 80
+[27-Feb-2025 12:25:42 Europe/Budapest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kldtkmkm/public_html/admin/checkimgs.php:76) in /home/kldtkmkm/public_html/admin/checkimgs.php on line 81
+[27-Feb-2025 12:26:32 Europe/Budapest] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/kldtkmkm/public_html/admin/checkimgs.php on line 84
+[27-Feb-2025 12:26:46 Europe/Budapest] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/kldtkmkm/public_html/admin/checkimgs.php on line 84
