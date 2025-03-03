@@ -1,0 +1,10 @@
+[22-Jan-2025 14:14:26 Europe/Budapest] PHP Parse error:  syntax error, unexpected ';' in /home/kldtkmkm/public_html/api/getimgdata.php on line 23
+[22-Jan-2025 14:14:28 Europe/Budapest] PHP Parse error:  syntax error, unexpected ';' in /home/kldtkmkm/public_html/api/getimgdata.php on line 23
+[22-Jan-2025 14:15:24 Europe/Budapest] PHP Notice:  Array to string conversion in /home/kldtkmkm/public_html/api/getimgdata.php on line 21
+[22-Jan-2025 14:15:43 Europe/Budapest] PHP Notice:  Undefined index: lpid in /home/kldtkmkm/public_html/api/getimgdata.php on line 21
+[17-Feb-2025 13:19:35 Europe/Budapest] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/kldtkmkm/public_html/api/getimglikes.php on line 18
+[17-Feb-2025 13:19:35 Europe/Budapest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/kldtkmkm/public_html/api/getimglikes.php on line 19
+[17-Feb-2025 13:19:35 Europe/Budapest] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/kldtkmkm/public_html/api/getimgtitle.php on line 18
+[17-Feb-2025 13:19:35 Europe/Budapest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/kldtkmkm/public_html/api/getimgtitle.php on line 19
+[17-Feb-2025 13:19:35 Europe/Budapest] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/kldtkmkm/public_html/api/getimgdislikes.php on line 18
+[17-Feb-2025 13:19:35 Europe/Budapest] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/kldtkmkm/public_html/api/getimgdislikes.php on line 19
