@@ -60,6 +60,8 @@ if($_COOKIE["animatedbg"] == "false"){
 				<input type="email" placeholder="Email" min="4" name="emailregister"/>
 				<input type="password" placeholder="Password" min="4" name="passwordregister"/>
 				<button type="submit">Sign Up</button>
+				<br>
+				<a id="signIn2" type="none">Sign In</a>
 			</form>
 		</div>
 		<div class="form-container sign-in-container">
@@ -69,6 +71,8 @@ if($_COOKIE["animatedbg"] == "false"){
 				<input type="password" placeholder="Password" min="4" name="passwordlogin"/>
 				<a href="#">Forgot your password?</a>
 				<button type="submit">Sign In</button>
+				<br>
+				<a id="signUp2" type="none">Sign Up</a>
 			</form>
 		</div>
 		<div class="overlay-container">
