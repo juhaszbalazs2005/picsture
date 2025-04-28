@@ -322,65 +322,47 @@ body {
 
 .card-columns {
   position: relative;
-  left: 3%;
   top: 100px;
 }
 
-@media (min-width: 420px) {
+
+@media (max-width: 1662px) {
+    body{
+        overflow: auto;
+    }
+    
     .card-columns {
-        column-count: 2;
-        column-gap: 0.5rem;
-        orphans: 2;
-        widows: 2 !important;
+        margin-left: 1%;
+        margin-right: auto;
+    }
+    
+    .wrapper{
+        bottom: -100vh;
     }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 1662px) {
+    body{
+        overflow: hidden;
+    }
+    
     .card-columns .card {
         display: inline-block;
         width: 100%;
     }
-
-    .card-columns {
-        column-count: 3;
-        column-gap: 0.5rem;
-        orphans: 4;
-        widows: 4;
-    }
-
-    .container {
-        max-width: 98%;
-    }
-}
-
-@media (min-width: 796px) {
-    .card-columns {
-        column-count: 3;
-        column-gap: 1.125rem;
-        orphans: 4;
-        widows: 4;
-    }
-}
-
-@media (min-width: 966px) {
+    
     .card-columns {
         column-count: 3;
         column-gap: 1.25rem;
         orphans: 1;
         widows: 1;
+        left: 3%;
+        margin-left: 0;
+        margin-right: 0;
     }
-
-    .container {
-        max-width: 80%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .card-columns {
-        column-count: 3;
-        column-gap: 1.25rem;
-        orphans: 1;
-        widows: 1;
+    
+    .wrapper{
+        bottom: -40px;
     }
 }
 
@@ -675,6 +657,21 @@ span.badge.badge-light {
 }
 
 
+@media (max-width: 1662px){
+    
+    #Profil_Settings{
+      left: calc(10% + 360px);
+    }
+    
+    #ForYou_Settings{
+      left: calc(10% + 360px);
+    }
+    
+    #Kartya_Settings{
+      left: calc(10% + 360px);
+    }
+    
+}
 
 
 

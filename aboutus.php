@@ -38,11 +38,12 @@
         </div>
     </footer>
 
-  <img src="Images/trust.jpg" alt="trust" class="trust-img">
-  <img src="Images/found.jpg" alt="found" class="found-img">
-  <img src="Images/ft-gl.jpg" alt="ft-gl" class="ft-gl-img">
+
+
+
     
     <div class="title-text">
+          <img src="Images/trust.jpg" alt="trust" class="trust-img">
         <p class="trust-text">
             At Picsture, we believe trust is <br> the cornerstone of everything we do.  <br> 
             We have built a reputation based on <br> transparency, integrity, and accountability. <br>
@@ -50,62 +51,50 @@
             Trust is not just a word for us; <br> it is a commitment that we honor every day. <br>  
             With us, you can rest assured that your<br>  interests are always our top priority. 
         </p>
+          <img src="Images/found.jpg" alt="found" class="found-img">
         <p class="found-text">
             Our story began with a simple yet<br>  powerful idea: to provide innovative <br>  solutions that make a difference. <br> 
             Over the years, we've found success <br>  through hard work, creativity, and <br>  a relentless drive for excellence. <br> 
             What started as a small project has now <br>  evolved into a thriving company that <br>  constantly seeks new ways to solve challenges. <br> 
             Every step of the way, we have <br>  learned and grown, and we are proud of<br>  everything we've found along this journey. 
         </p>
+          <img src="Images/ft-gl.jpg" alt="ft-gl" class="ft-gl-img">
         <p class="ft-gl-text">
             Picsture is not just about providing <br> services; it's about creating lasting impact. <br> 
             We strive for greatness in every aspect of our business. <br> 
             From the cutting-edge technologies we<br>  use to the dedicated team behind our projects, <br>  everything is designed to deliver unparalleled quality. <br> 
             We are on a mission to set new standards and redefine what’s possible. <br> 
             With each project, we continue to push<br>  boundaries, break barriers, and shape the future. <br>
-            We thrive to change the flaws of social media, <br> with our new technology, <a href='./?p=Swipejoy' data-item='Swipejoy'>Swipejoy</a>.
+            We thrive to change the flaws of social media, <br> with our new technology, Swipejoy.
         </p>
     </div>
 
     <script>
-        // Wait until the DOM is fully loaded
         document.addEventListener('DOMContentLoaded', function () {
-            // Get all the title links
             const titles = document.querySelectorAll('.titles a');
             
-            // Get all the title-text paragraphs
             const titleTexts = {
                 trust: document.querySelector('.trust-text'),
                 found: document.querySelector('.found-text'),
                 'ft-gl': document.querySelector('.ft-gl-text'),
             };
 
-            // Function to reset opacity of all texts to 50%
             function resetOpacity() {
                 for (const key in titleTexts) {
                     if (titleTexts[key]) {
-                        titleTexts[key].style.opacity = '0.5';  // Set opacity back to 50%
+                        titleTexts[key].style.opacity = '0.5';
                     }
                 }
             }
 
-            // Function to change the opacity of the clicked title-text
             function handleClick(event) {
-                // Prevent default link behavior
                 event.preventDefault();
-
-                // Get the data-item (class name) from the clicked title link
                 const targetClass = event.target.classList[0];
-
-                // Reset all opacity to 50% before applying new one
                 resetOpacity();
-
-                // Increase opacity of the corresponding text to 100%
                 if (titleTexts[targetClass]) {
                     titleTexts[targetClass].style.opacity = '1';
                 }
             }
-
-            // Attach the click event listener to each title link
             titles.forEach(title => {
                 title.addEventListener('click', handleClick);
             });

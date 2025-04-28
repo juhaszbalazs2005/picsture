@@ -255,6 +255,7 @@ body {
 
 .title-text{
   color: white;
+  display: flex;
 }
 
 
@@ -765,7 +766,7 @@ body {
   }
 
 
-@media screen and (max-width: 502px){
+@media screen and (max-width: 1300px){
     body{
         left: 0%;
         right: 0%;
@@ -783,7 +784,7 @@ body {
     font-size: 12px;
     bottom: 0;
     top: 2300px;
-    width: 100%;
+    width: 110vw;
     height: 60px;
     line-height: 25px;
     font-size: 14px;
@@ -899,7 +900,7 @@ body {
     box-shadow: 5px 10px rgba(5, 5, 5, 0.575);
 }
 
-@media screen and (max-width: 502px) {
+@media screen and (max-width: 1300px) {
     .Alszoveg_felso1{
         left: calc(100vw - 50% - (100vw / 2));
         width: 100vw;
@@ -978,13 +979,13 @@ body {
       }
   }
 
-@media screen and (max-width: 502px){
+@media screen and (max-width: 1300px){
     .gallery {
         display: none;
     }
 }
 
-@media screen and (max-width: 502px){
+@media screen and (max-width: 1300px){
     .circle {
         position: absolute;
         display: none;
@@ -1031,7 +1032,7 @@ body {
     }
   }
 
-@media screen and (max-width: 502px) {
+@media screen and (max-width: 1300px) {
     .like2{
         display: none;
     }

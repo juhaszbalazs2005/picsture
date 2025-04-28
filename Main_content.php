@@ -81,7 +81,8 @@ if($_COOKIE["animatedbg"] == "false"){
         <p>Manage a community, easily.</p>
         <p>Art, food, stories and news in one place.</p>
         <p>Discover and develop your artistic skills.</p>
-        <p>Just one click and millions of people around the world can discover your talent!</p>
+        <p>Just one click and millions of people </p>
+        <p>around the world can discover your talent!</p>
       </div>
       <div class="Alszoveg_felso2">
         <h2>Registration</h2>
@@ -91,6 +92,18 @@ if($_COOKIE["animatedbg"] == "false"){
         <p>just click the registration button,</p> 
         <p>fill in some information,</p>
         <p>and manage your profile however you want!</p>
+      </div>
+      <div class="Alszoveg_felso3">
+        <h2>Censorship</h2>
+      </div>
+      <div class="Alszoveg_also3">
+        <p>The operators and moderators of our website</p>
+        <p>pay special attention to ensuring that all published</p>
+        <p>content complies with our family-friendly guidelines.</p>
+        <p>suitable for all ages. To this end, westrictly </p>
+        <p>check the uploaded images. The content control required for this</p>
+        <p> is carried out jointly by an advanced, automatic filtering</p>
+        <p>system and our experienced staff.</p>
       </div>
 
 
